@@ -1,0 +1,18 @@
+.container {
+    margin-top: 15vh;
+    background-color: #FBFAFA;
+    padding-bottom: 5vh;
+    border-color: lightgrey;
+    border-width: 12px;
+    border-style: solid;
+    max-width: 95vw!important;
+}
+
+.request-button {
+    border-radius : 11px;
+}
+
+.section-right-form {
+    padding-left: 2vw;
+    border-left: 2px solid grey;
+}
