@@ -20,10 +20,16 @@
                     <!-- first row -->
                     <div class="row">
                       <div class="form-group col-md-6">
-                         <input type="text" class="form-control" id="name" placeholder="Name as per in Passport">
+                         
+                         <input type="text" class="form-control input-field" id="name" >
+                         <label for="name" class=" input-label mb-0 mt-5">Name as per in passport</label>
+                         
                       </div>
                       <div class="form-group col-md-6">
-                         <input type="email" class="form-control" id="email" placeholder="Email">
+                         
+                         <input type="email" class="form-control input-field" id="email" >
+                         <label for="email" class=" input-label mb-0 mt-5">Email</label>
+                         
                       </div>
                     </div>
                     <!-- end of first row -->
@@ -74,9 +80,21 @@
                                 <input type="tex" class="form-control" id="phone" placeholder="comments">
                          </div>
                  </div>
+
                 <!-- end of fourth row -->
                     <div class="mb-2 mt-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores ipsum dolores molestiae! </div>
-                    <button type="submit" class="btn btn-secondary request-button mt-3 p-2 float-right">Request Code</button>
+                    <div class="form-group">
+                      <div class="form-check">
+                        <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" required>
+                        <label class="form-check-label" for="invalidCheck3">
+                          Agree to terms and conditions
+                        </label>
+                        <div class="invalid-feedback">
+                          You must agree before submitting.
+                        </div>
+                      </div>
+                      </div>
+                      <button class="btn btn-primary" type="submit">Submit form</button>
                   </form>
             </div>
         </div>
