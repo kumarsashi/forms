@@ -1,3 +1,10 @@
+:root {
+    --mainDark: #242325;
+    --mainGreen: #61e786;
+    --mainWhite: #fff;
+    --mainGrey: #eeeeee;
+  }
+
 .container {
     margin-top: 15vh;
     background-color: #FBFAFA;
@@ -52,6 +59,31 @@ input {
     box-shadow: none;
 }
 
+.badge-icon {
+    min-height: 30vh;
+    min-width: 30vw;
+    background: url("../images/idcard.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: var(--mainGrey);
+}
 
+.user-image {
+    min-height: 30vh;
+    min-width: 30vw;
+    background : url("../images/cross-png-icon-3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.id-card {
+    width: 15rem;
+    background: var(--mainGrey);
+    font-size: 10rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vh;
+    border: 1px dotted black;
+}
 
 
