@@ -10,28 +10,166 @@
 
 </head>
 <body>
+
+    <!-- header-->
+    <header id="home px-4">
+            <!-- navbar-->
+            <nav class="navbar navbar-expand-lg navbar-dark px-5">
+      
+              <a href="#home" class="navbar-brand">
+                <img src="images/logo1/Layer 2.png" alt="company logo" />
+              </a>
+              <!-- register button for small screen only -->
+              <div class=" d-lg-none d-md-none d-flex flex-column align-items-baseline">
+                    <p class="language-option align-self-lg-end">
+                    <span class="text-blue">English</span> <span class="text-white">|  العربية
+                    </span>
+                    </p>
+                    <button class="btn btn__blue text-capitalize text-white">Register now</button>
+    
+              </div>
+              <!-- register button for small screen only -->
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavBar">
+                <span class="navbar-toggler-icon button-dark"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="myNavBar">
+                    <ul class="navbar-nav mx-auto">
+                    <li class="nav-item active">
+                        <a href="#home" class="nav-link text-uppercase">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link text-uppercase">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#program" class="nav-link text-uppercase">Program</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#location" class="nav-link text-uppercase">Location</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#partners" class="nav-link text-uppercase">partners</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#mediahub" class="nav-link text-uppercase">media hub</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="#contactus" class="nav-link text-uppercase">contact us</a>
+                    </li>
+                    </ul>
+                    <div class="d-none d-lg-flex d-md-flex flex-column align-items-baseline">
+                        <p class="language-option align-self-lg-end">
+                        <span class="text-blue">English</span> <span class="text-white">|  العربية
+                        </span>
+                        </p>
+                        <button class="btn btn__blue text-capitalize text-white">Register now</button>
+        
+                    </div>
+                </div>
+            </nav>
+            <!-- end of navbar-->
+        </header>
     <div class="container">
-        <div class="row">
+        <!-- <div class="row about-us">
             <div class="col-lg-3 col-6 col-md-3">
                     <div class="card author-cards">
                         <div class="card-images background-violet-light">
                             <img src="./images/speaker-img-05/speaker-img-05.png" class="card-img-top" alt="author image">
-                            <img src="./images/plusicon/Layer 2.png" class="plus-icon d-none" alt="plus icon">
+                            <img src="./images/plusicon/Layer 2.png" class="plus-icon" alt="plus icon">
                        </div>
-                        <div class="card-body px-3 py-3">
+                        <div class="card-body py-3">
+                        <h5 class="card-title text-center text-capitalize text-strong">Beat James</h5>
+                        <p class="card-text text-capitalize text-center">Founder & Chairman, esse united arab emirates</p>
+                        </div>
+                    </div>
+            </div>
+
+            <div class="col-lg-3 col-6 col-md-3">
+                    <div class="card author-cards">
+                        <div class="card-images background-violet-light">
+                            <img src="./images/speaker-img-05/speaker-img-05.png" class="card-img-top" alt="author image">
+                           
+                       </div>
+                       <img src="./images/plusicon/Layer 2.png" class="plus-icon" alt="plus icon">
+                        <div class="card-body py-3">
+                        <h5 class="card-title text-center text-capitalize text-strong">Beat James</h5>
+                        <p class="card-text text-capitalize text-center">Founder & Chairman, esse united arab emirates</p>
+                        </div>
+                    </div>
+            </div>
+
+            <div class="col-lg-3 col-6 col-md-3">
+                    <div class="card author-cards">
+                        <div class="card-images background-violet-light">
+                            <img src="./images/speaker-img-05/speaker-img-05.png" class="card-img-top" alt="author image">
+                            
+                       </div>
+                       <img src="./images/plusicon/Layer 2.png" class="plus-icon " alt="plus icon">
+                        <div class="card-body  py-3">
                         <h5 class="card-title text-center text-capitalize text-strong">Beat James</h5>
                         <p class="card-text text-capitalize text-center">Founder & Chairman, esse united arab emirates</p>
                         </div>
                     </div>
             </div>
            
-        </div>   
+        </div>    -->
+
+        <!-- bootstrap tab section-->
+        <div class="row tab-section">
+            <div class="col-lg-12">
+                <div class="media-hub-container pt-5">
+                    <ul class="nav nav-tabs">
+                        
+                       
+                        <li class="nav-item">
+                           
+                               <div class="top-border-nav"></div>
+                                <a href="#home" class="nav-link" data-toggle="tab">Photo Gallery</a>
+                                                    
+                        </li>
+                        
+                        <li class="nav-item">
+                            <div class="top-border-nav"></div>
+                            <a href="#profile" class="nav-link active" data-toggle="tab">Profile</a>
+                        </li>
+                        <li class="nav-item">
+                            <div class="top-border-nav"></div>
+                            <a href="#messages" class="nav-link" data-toggle="tab">Messages</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content pt-4">
+                        <div class="tab-pane fade show active" id="home">
+                            <div class="row pl-3">
+                                <div class="col-lg-4">
+                                    <img src="./images/conference_3-1024x683/conference_3-1024x683.png" class="img-fluid" alt="conference image">
+                                </div>
+                                <div class="col-lg-4">
+                                    <img src="./images/conference_3-1024x683/conference_3-1024x683.png" class="img-fluid" alt="conference image">
+                                </div>
+                                <div class="col-lg-4">
+                                    <img src="./images/conference_3-1024x683/conference_3-1024x683.png" class="img-fluid" alt="conference image">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="profile">
+                            <p>Profile tab content ...</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, dicta! Omnis vero nihil commodi totam earum nemo sed beatae id inventore ipsam? Repudiandae, beatae impedit aperiam 
+                                qui ipsam excepturi sapiente repellat quidem maxime, incidunt saepe, aliquam consequuntur voluptates inventore corrupti?</p>
+                        </div>
+                        <div class="tab-pane fade" id="messages">
+                            <p>Messages tab content ...</p>
+                        </div>
+                    </div>
+                 </div>
+            </div>
+        </div>
+       
+        <!-- end of bootstrap tab section-->
     </div>
 
 
 
 
-    <script src="js/aboutus.js"></script>
+     <script src="js/aboutus.js"></script>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
